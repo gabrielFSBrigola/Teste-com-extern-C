@@ -1,0 +1,6 @@
+Esse projetinho é simples onde eu vejo como usar o extern "C" para usar funções do C no C++
+
+Comandos que tem que serem dados para compilar esse projetinho:
+g++ -c nome_do_seu_arquivo_em_cpp.cpp
+gcc -c nome_do_seu_arquivo_em_c.c
+g++ nome_do_seu_arquivo_em_cpp.o nome_do_seu_arquivo_em_c.o -o nome_de_saida
